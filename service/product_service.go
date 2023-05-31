@@ -3,15 +3,16 @@ package service
 
 import (
 	"github.com/jthaitran/woocommerce-management/domain"
+	"github.com/jthaitran/woocommerce-management/repository"
 )
 
 // ProductService is responsible for managing products
 type ProductService struct {
-	repo domain.ProductRepository
+	repo repository.ProductRepository
 }
 
 // NewProductService creates a new instance of ProductService
-func NewProductService(repo domain.ProductRepository) *ProductService {
+func NewProductService(repo repository.ProductRepository) *ProductService {
 	return &ProductService{
 		repo: repo,
 	}
