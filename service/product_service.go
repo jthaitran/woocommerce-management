@@ -2,7 +2,7 @@
 package service
 
 import (
-	"github.com/jthaitran/ecommerce/domain"
+	"github.com/jthaitran/woocommerce-management/domain"
 )
 
 // ProductService is responsible for managing products
