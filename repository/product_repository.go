@@ -4,8 +4,8 @@ package repository
 import (
 	"fmt"
 
-	"github.com/jthaitran/ecommerce/config"
-	"github.com/jthaitran/ecommerce/domain"
+	"github.com/jthaitran/woocommerce-management/config"
+	"github.com/jthaitran/woocommerce-management/domain"
 )
 
 // ProductRepository is responsible for interacting with the WooCommerce API to manage products

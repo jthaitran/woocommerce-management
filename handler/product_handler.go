@@ -6,7 +6,7 @@ import (
 	"strconv"
 
 	"github.com/gin-gonic/gin"
-	"github.com/jthaitran/ecommerce/domain"
+	"github.com/jthaitran/woocommerce-management/domain"
 )
 
 // ProductHandler handles HTTP requests related to products
